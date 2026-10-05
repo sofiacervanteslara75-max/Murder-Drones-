@@ -1,0 +1,13 @@
+:root {
+    --color-titulo: #562453;
+    --color-texto: #fcf8fc;
+    --colo-fondo: #a003b9;
+    --colo-principal: #2E0C29;
+    --colo-secundario: #42183E;
+    --blanco: #f8e8f5;
+    --negro: #000000;
+    --texto-sm: 1rem;
+    --texto-m: 2rem;
+    --texto-1: 3rem;
+    --texto-x1: 4rem;
+}

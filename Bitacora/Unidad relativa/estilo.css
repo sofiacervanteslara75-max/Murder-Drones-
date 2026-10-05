@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f3e5fc;
+    padding: 30px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #4a0072;
+    margin-bottom: 40px;
+}
+
+/* Fichas moradas */
+.ficha {
+    background-color: #9c27b0;
+    color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ficha h2 {
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #ce93d8;
+    padding-bottom: 8px;
+}
+
+.ficha p {
+    line-height: 1.6;
+    font-size: 1rem;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora 2do Parcial</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- Botón menú SOLO para teléfono -->
+    <button class="btn-menu-movil" id="btnMenu">☰ Menú</button>
+
+    <nav class="menu-lateral" id="menuLateral">
+        <div class="logo-menu">Bitácora</div>
+        <ul class="opciones-menu">
+            <li><a href="index.html" class="activo">Inicio</a></li>
+            <li class="desplegable">
+                <a href="#">Trabajos ▾</a>
+                <ul class="submenu">
+                    <li><a href="maqueta-flex.html">Maqueta Flex</a></li>
+                    <li><a href="maqueta-grid.html">Maqueta Grid y Flex</a></li>
+                    <li><a href="unidad-relativa.html">Unidad Relativa</a></li>
+                    <li><a href="reset.html">Reset</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="contenido">
+        <header class="encabezado">
+            <h1>Bitácora del Segundo Parcial</h1>
+            <p>Sofía Cervantes Lara — 241915</p>
+        </header>
+
+        <section class="seccion-trabajos">
+            <h2>Trabajos Realizados</h2>
+            <div class="grid-trabajos">
+                <div class="tarjeta-trabajo">
+                    <h3>Maqueta Flex</h3>
+                    <p>Primera maquetación usando Flexbox.</p>
+                </div>
+                <div class="tarjeta-trabajo">
+                    <h3>Maqueta Grid y Flex</h3>
+                    <p>Combinación de CSS Grid y Flexbox.</p>
+                </div>
+                <div class="tarjeta-trabajo">
+                    <h3>Unidad Relativa</h3>
+                    <p>Uso de unidades relativas: em, rem, vh, vw, %.</p>
+                </div>
+                <div class="tarjeta-trabajo">
+                    <h3>Reset</h3>
+                    <p>Limpieza de estilos por defecto y variables en root.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<script>
+// Abrir/cerrar menú en teléfono
+const btnMenu = document.getElementById('btnMenu');
+const menuLateral = document.getElementById('menuLateral');
+
+btnMenu.addEventListener('click', () => {
+    menuLateral.classList.toggle('abierto');
+});
+</script>
+
+</body>
+</html>
